@@ -1,0 +1,9 @@
+<div class="appointments-list">
+    <h2>Ваші записи</h2>
+    <ul>
+      <li *ngFor="let appointment of appointments">
+        {{ appointment.date }} - {{ appointment.doctor }}
+      </li>
+    </ul>
+  </div>
+  

@@ -1,0 +1,8 @@
+<div class="search">
+    <h2>Пошук</h2>
+    <input type="text" placeholder="Введіть критерії пошуку" (input)="onSearch($event)" />
+    <ul>
+      <li *ngFor="let result of results">{{ result }}</li>
+    </ul>
+  </div>
+  
